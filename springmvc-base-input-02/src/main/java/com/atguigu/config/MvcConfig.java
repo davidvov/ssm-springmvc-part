@@ -16,7 +16,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
  */
 @EnableWebMvc  //给handlerAdapter配置了json转换器
 @Configuration
-@ComponentScan("com.atguigu.cookie")
+@ComponentScan("com.atguigu.header")
 public class MvcConfig {
     @Bean
     public RequestMappingHandlerMapping handlerMapping(){
